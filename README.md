@@ -1,24 +1,21 @@
 # hello-nuxt
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project uses GitHub Codespaces. It has been setup to build dev environment automatically with Dev Container (https://containers.dev/).
 
-## Setup
+Application is using Nuxt.js framework (https://nuxt.com/).
 
-Make sure to install the dependencies:
+## Develop
 
-```bash
-npm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Start dev server by running:
 
 ```bash
 npm run dev
 ```
 
-## Production
+Now application is running in:
+http://localhost:3000
+
+## Deploy
 
 Build the application for production:
 
@@ -31,5 +28,3 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
