@@ -19,3 +19,9 @@
     <footer>&copy;</footer>
   </div>
 </template>
+
+<style scoped>
+ul li {
+  margin: 0 0.75em 0.75em 0;
+}
+</style>
