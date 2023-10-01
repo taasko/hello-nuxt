@@ -3,5 +3,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     baseURL: "/hello-nuxt/",
+    head: {
+      htmlAttrs: {
+        lang: "en",
+      },
+    },
   },
 });
