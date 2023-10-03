@@ -16,6 +16,8 @@
 
     <slot></slot>
 
+    <br />
+
     <footer>&copy;</footer>
   </div>
 </template>

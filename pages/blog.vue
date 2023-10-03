@@ -5,8 +5,15 @@
   </Head>
 
   <section>
-    <h1>Blog</h1>
+    <h1>Blogs</h1>
 
-    <p>Here is my blog.</p>
+    <ContentList v-slot="{ list }">
+      <div v-for="article in list" :key="article._path">
+        <h2>{{ article.title }}</h2>
+        <p>{{ article.description }}</p>
+
+        <NuxtLink :to="article._path">Read more...</NuxtLink>
+      </div>
+    </ContentList>
   </section>
 </template>
